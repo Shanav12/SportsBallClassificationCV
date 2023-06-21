@@ -1,0 +1,39 @@
+<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="static/styles.css" /> 
+    <title>Link CSS to HTML</title>
+  </head>
+  <div class="content">
+  <h1>
+    Sports Ball Image Classifier
+  </h1>
+  <div class="summary">
+    Please upload a picture of a football, basketball, baseball, or soccer ball. The model will output the probability of the image being one of those types of sports balls.
+  </div>
+  <form action="/classify" method="post" enctype="multipart/form-data">
+    <label>Upload Image</label>
+    <input type="file" name="file", accept="image/*" />
+    <label>Classify Image</label>
+    <input type="submit" name="classify" value="Classify" />
+  </form>
+  <h2>
+    Results
+  </h2>
+  {% for result in results %}
+  <div>
+    <h3>
+      {{ result.label }}
+    </h3>
+    <div>
+      {{ result.score }}
+    </div>
+  </div>
+  {% endfor %}
+  <h3>
+    Prediction: {{ prediction }}
+  </h3>
+  </div>
+</body>

@@ -1,0 +1,17 @@
+body {
+  background-image: url("background.jpg");
+  vertical-align: middle;
+  text-align: center;
+}
+
+.content {
+  background: linear-gradient(rgba(140,255,255,.5),   
+  rgba(255,255,255,.5));
+}
+
+.summary {
+  padding-bottom: 2.5%;
+  font-size: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
