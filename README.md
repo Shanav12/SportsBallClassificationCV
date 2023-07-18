@@ -4,5 +4,7 @@ This website prompts the user to submit an image of a sports ball, sends the ima
 
 This project was created through a combination HTML, CSS, Roboflow, Python, Flask, and HuggingFace.
 
+To run the project, run the main.py file.
+
 
 ![background](https://github.com/Shanav12/SportsBallClassificationCV/assets/112015099/3c86e3a0-1a11-43f1-931d-9c52dbf8ac4d)
