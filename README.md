@@ -1,7 +1,7 @@
-# Welcome! This is a computer vision classification model for classifying images of Sports balls. 
+# Welcome to SportsBallCV!
 
 
-**This website prompts the user to submit an image of a sports ball, sends the image to the model to classify, and outputs the probabilities of what the ball could be. **
+**This is a computer vision classification model for classifying images of sports balls. The website prompts the user to submit an image of a sports ball, sends the image to the model to classify, and outputs the probabilities of what the ball could be.**
 
 
 # Tech Stack:
