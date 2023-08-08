@@ -1,9 +1,18 @@
-This is a computer vision classification model for classifying images of sports ball. 
+# Welcome to SportsBallCV!
 
-This website prompts the user to submit an image of a sports ball, sends the image to the model to classify, and outputs the probabilities of what the ball could be. 
 
-This project was created through a combination HTML, CSS, Roboflow, Python, Flask, and HuggingFace.
+This is a computer vision classification model for classifying images of sports balls. The website prompts the user to submit an image of a sports ball, sends the image to the model to classify, and outputs the probabilities of what the ball could be.
 
+
+# Tech Stack:
+- HTML
+- CSS
+- Roboflow
+- Flask
+- Hugging Face
+
+
+# Directions:
 To run the project, run the main.py file.
 
 
